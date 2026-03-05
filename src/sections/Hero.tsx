@@ -43,12 +43,12 @@ const Hero = () => {
             </p>
 
             {/* Contact Info */}
-            <div className="flex flex-wrap gap-4 pt-2">
+            {/* <div className="flex flex-wrap gap-4 pt-2">
               <div className="flex items-center gap-2 text-[#4A1A7A]">
                 <Phone size={18} />
                 <span className="font-semibold">94913 20132</span>
               </div>
-            </div>
+            </div> */}
 
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 pt-4">

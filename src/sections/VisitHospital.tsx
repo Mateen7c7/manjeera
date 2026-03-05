@@ -77,7 +77,7 @@ const VisitHospital = () => {
                   <User size={24} className="text-white" />
                 </div>
                 <div>
-                  <p className="text-xs text-gray-500 uppercase tracking-wider">Managing Director</p>
+                  {/* <p className="text-xs text-gray-500 uppercase tracking-wider">Managing Director</p> */}
                   <p className="font-bold text-[#4A1A7A]">G. PRASAD</p>
                   <p className="text-sm text-gray-600">Cell: 94949 50152</p>
                 </div>
