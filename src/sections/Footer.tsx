@@ -1,48 +1,58 @@
-import { 
-  MapPin, 
-  Phone, 
-  Clock, 
-  Facebook, 
-  Instagram, 
-  Linkedin, 
+import {
+  MapPin,
+  Phone,
+  Clock,
+  Facebook,
+  Instagram,
   Youtube,
-  User
-} from 'lucide-react';
+  User,
+} from "lucide-react";
 
 const Footer = () => {
   const quickLinks = [
-    { name: 'Home', href: '#' },
-    { name: 'About', href: '#about' },
-    { name: 'Doctors', href: '#doctors' },
-    { name: 'Specialities', href: '#specialities' },
-    { name: 'Contact', href: '#contact' },
+    { name: "Home", href: "#" },
+    { name: "About", href: "#about" },
+    { name: "Doctors", href: "#doctors" },
+    { name: "Specialities", href: "#specialities" },
+    { name: "Contact", href: "#contact" },
   ];
 
   const contactInfo = [
     {
       icon: <MapPin size={18} />,
-      text: '#50-760/A/120, Viswabharathi Hospital Line, Gayathri Estate, KURNOOL - 518 002',
+      text: "#50-760/A/120, Viswabharathi Hospital Line, Gayathri Estate, KURNOOL - 518 002",
     },
     {
       icon: <Phone size={18} />,
-      text: '94913 20132',
-      href: 'tel:9491320132',
+      text: "94913 20132",
+      href: "tel:9491320132",
     },
     {
       icon: <User size={18} />,
-      text: 'Managing Director: G. PRASAD (94949 50152)',
+      text: "Managing Director: G. PRASAD (94949 50152)",
     },
     {
       icon: <Clock size={18} />,
-      text: '24/7 Emergency Services',
+      text: "24/7 Emergency Services",
     },
   ];
 
   const socialLinks = [
-    { icon: <Facebook size={20} />, href: '#', label: 'Facebook' },
-    { icon: <Instagram size={20} />, href: '#', label: 'Instagram' },
-    { icon: <Linkedin size={20} />, href: '#', label: 'LinkedIn' },
-    { icon: <Youtube size={20} />, href: '#', label: 'YouTube' },
+    {
+      icon: <Facebook size={20} />,
+      href: "https://www.facebook.com/people/Sri-Manjeera-Hospital/61582157684031/?rdid=j0MxdBjAGQDIc9pH&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1D7YkDkoaC%2F",
+      label: "Facebook",
+    },
+    {
+      icon: <Instagram size={20} />,
+      href: "https://www.instagram.com/srimanjeerahospital",
+      label: "Instagram",
+    },
+    {
+      icon: <Youtube size={20} />,
+      href: "https://www.youtube.com/@ManjeeraHospital",
+      label: "YouTube",
+    },
   ];
 
   return (
@@ -54,9 +64,9 @@ const Footer = () => {
             {/* Logo */}
             <a href="#" className="flex items-center gap-3">
               <div className="relative w-14 h-14">
-                <img 
-                  src="/images/logo.jpeg" 
-                  alt="Sri Manjeera Hospital Logo" 
+                <img
+                  src="/images/logo.jpeg"
+                  alt="Sri Manjeera Hospital Logo"
                   className="w-full h-full object-contain rounded-full border-2 border-white"
                 />
               </div>
@@ -71,10 +81,10 @@ const Footer = () => {
             </a>
 
             <p className="text-white/80 text-sm leading-relaxed">
-              Sri Manjeera Hospital is a trusted healthcare facility in Kurnool, 
-              dedicated to providing comprehensive medical services with a patient-first 
-              approach. Our team of experienced consultants are committed to delivering 
-              quality healthcare to the community.
+              Sri Manjeera Hospital is a trusted healthcare facility in Kurnool,
+              dedicated to providing comprehensive medical services with a
+              patient-first approach. Our team of experienced consultants are
+              committed to delivering quality healthcare to the community.
             </p>
 
             {/* Social Links */}
@@ -96,7 +106,9 @@ const Footer = () => {
 
           {/* Column 2: Quick Links */}
           <div>
-            <h3 className="text-xl font-semibold mb-6 text-[#D4AF37]">Quick Links</h3>
+            <h3 className="text-xl font-semibold mb-6 text-[#D4AF37]">
+              Quick Links
+            </h3>
             <ul className="space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.name}>
@@ -113,7 +125,9 @@ const Footer = () => {
 
           {/* Column 3: Get In Touch */}
           <div>
-            <h3 className="text-xl font-semibold mb-6 text-[#D4AF37]">Get In Touch</h3>
+            <h3 className="text-xl font-semibold mb-6 text-[#D4AF37]">
+              Get In Touch
+            </h3>
             <ul className="space-y-4">
               {contactInfo.map((item, index) => (
                 <li key={index} className="flex items-start gap-3">
@@ -139,7 +153,8 @@ const Footer = () => {
       <div className="bg-[#3A1560] py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-center text-white/60 text-sm">
-            ©2026 All Rights Reserved. Sri Manjeera Hospital | Designed with care
+            ©2026 All Rights Reserved. Sri Manjeera Hospital | Designed with
+            care
           </p>
         </div>
       </div>

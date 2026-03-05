@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, Facebook, Instagram, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import TopBar from "./TopBar";
 
@@ -119,6 +119,32 @@ const Header = () => {
                     <Phone size={16} className="text-[#4A1A7A]" />
                   </div>
                   94949 50152
+                </a>
+              </div>
+              <div className="flex gap-4 pt-4">
+                <a
+                  href="https://www.facebook.com/people/Sri-Manjeera-Hospital/61582157684031/?rdid=j0MxdBjAGQDIc9pH&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1D7YkDkoaC%2F"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-[#4A1A7A]/10 rounded-full flex items-center justify-center text-[#4A1A7A]"
+                >
+                  <Facebook size={20} />
+                </a>
+                <a
+                  href="https://www.instagram.com/srimanjeerahospital"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-[#4A1A7A]/10 rounded-full flex items-center justify-center text-[#4A1A7A]"
+                >
+                  <Instagram size={20} />
+                </a>
+                <a
+                  href="https://www.youtube.com/@ManjeeraHospital"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-[#4A1A7A]/10 rounded-full flex items-center justify-center text-[#4A1A7A]"
+                >
+                  <Youtube size={20} />
                 </a>
               </div>
             </nav>
