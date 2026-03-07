@@ -1,5 +1,4 @@
-import { Button } from '@/components/ui/button';
-import { ArrowRight, Stethoscope, HeartHandshake, Wallet, Clock, Users, Award } from 'lucide-react';
+import { Stethoscope, HeartHandshake, Wallet, Clock, Users, Award } from 'lucide-react';
 
 interface Feature {
   icon: React.ReactNode;
