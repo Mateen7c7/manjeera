@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { MapPin, ArrowRight, Phone } from 'lucide-react';
+import { MapPin, ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   return (
