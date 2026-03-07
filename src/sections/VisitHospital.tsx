@@ -6,16 +6,16 @@ const VisitHospital = () => {
     <section className="py-16 lg:py-24 bg-white" id="contact">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left Image */}
+          {/* Left Map (Google Maps Embed) */}
           <div className="relative group">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-              <img
-                src="/images/hospital-building.jpg"
-                alt="Sri Manjeera Hospital Building"
-                className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-              {/* Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-[#4A1A7A]/30 to-transparent"></div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4033.769569928085!2d78.03676167513046!3d15.812966384830021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb5dd057f65963f%3A0xddec9ce0f98dd8e9!2sSri%20manjeera%20hospital!5e1!3m2!1sen!2sin!4v1772878382909!5m2!1sen!2sin"
+                className="w-full h-[260px] sm:h-[320px] lg:h-[420px] border-0"
+                loading="lazy"
+                allowFullScreen
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
 
             {/* Decorative Elements */}
