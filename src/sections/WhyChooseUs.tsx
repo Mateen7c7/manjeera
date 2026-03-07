@@ -55,12 +55,12 @@ const WhyChooseUs = () => {
           <h2 className="text-3xl lg:text-5xl font-bold text-white mb-6">
             Why Choose Sri Manjeera Hospital?
           </h2>
-          <Button
+          {/* <Button
             className="bg-[#D4AF37] hover:bg-[#B8962F] text-[#4A1A7A] rounded-full px-8 py-3 text-sm font-bold transition-all duration-200 hover:scale-105 inline-flex items-center gap-2"
           >
             Our Experience
             <ArrowRight size={18} />
-          </Button>
+          </Button> */}
         </div>
 
         {/* Stats Row */}

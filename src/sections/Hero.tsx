@@ -53,9 +53,10 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 pt-4">
               <Button
+                asChild
                 className="bg-[#4A1A7A] hover:bg-[#3A1560] text-white rounded-full px-8 py-3 text-sm font-medium transition-all duration-200 hover:scale-105 hover:shadow-lg"
               >
-                Book an Appointment
+                <a href="tel:9491320132">Book an Appointment</a>
               </Button>
               <a
                 href="#doctors"

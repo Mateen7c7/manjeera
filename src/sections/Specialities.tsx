@@ -124,14 +124,14 @@ const Specialities = () => {
         </div>
 
         {/* CTA Button */}
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <Button
             className="bg-[#4A1A7A] hover:bg-[#3A1560] text-white rounded-full px-8 py-3 text-sm font-medium transition-all duration-200 hover:scale-105 inline-flex items-center gap-2"
           >
             View All Services
             <ArrowRight size={18} />
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

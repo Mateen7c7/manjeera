@@ -85,12 +85,18 @@ const VisitHospital = () => {
             </div>
 
             {/* CTA Button */}
-            <Button
-              className="bg-[#4A1A7A] hover:bg-[#3A1560] text-white rounded-full px-8 py-3 text-sm font-medium transition-all duration-200 hover:scale-105 inline-flex items-center gap-2"
+            <a
+              href="https://www.google.com/maps/dir/?api=1&destination=Sri+Manjeera+Hospital,+Kurnool,+Andhra+Pradesh"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Get Directions
-              <ArrowRight size={18} />
-            </Button>
+              <Button
+                className="bg-[#4A1A7A] hover:bg-[#3A1560] text-white rounded-full px-8 py-3 text-sm font-medium transition-all duration-200 hover:scale-105 inline-flex items-center gap-2"
+              >
+                Get Directions
+                <ArrowRight size={18} />
+              </Button>
+            </a>
           </div>
         </div>
       </div>

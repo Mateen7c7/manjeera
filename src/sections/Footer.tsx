@@ -29,7 +29,7 @@ const Footer = () => {
     },
     {
       icon: <User size={18} />,
-      text: "G. PRASAD (94949 50152)",
+      text: "94949 50152",
     },
     {
       icon: <Clock size={18} />,
