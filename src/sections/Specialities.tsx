@@ -31,7 +31,7 @@ const specialties: Specialty[] = [
     title: 'Orthopedics',
     description:
       'Specialized care for bone, joint, and musculoskeletal conditions with advanced treatment options.',
-    image: '/images/specialty-orthopedics.jpg',
+    image: '/images/measuring-for-implant-during-orthopedic-surgery.webp',
     doctors: ['Dr. Maheswarareddy (MS)', 'Dr. Madhusudhan Yadav (MS)'],
   },
   {
