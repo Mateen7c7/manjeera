@@ -72,8 +72,8 @@ const Hero = () => {
           <div className="relative animate-fade-in delay-200">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/images/hero-doctor.jpg"
-                alt="Sri Manjeera Hospital Doctor"
+                src="/images/hospital-1028.webp"
+                alt="Sri Manjeera Hospital building"
                 className="w-full h-auto object-cover"
               />
               {/* Decorative Elements */}
