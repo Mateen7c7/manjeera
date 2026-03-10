@@ -17,7 +17,7 @@ const Header = () => {
 
   const navLinks = [
     { name: "Home", href: "#" },
-    { name: "About", href: "#about" },
+    // { name: "About", href: "#about" },
     { name: "Doctors", href: "#doctors" },
     { name: "Specialities", href: "#specialities" },
     { name: "Contact", href: "#contact" },
@@ -69,11 +69,11 @@ const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <div className="hidden lg:block">
+          {/* <div className="hidden lg:block">
             <Button className="bg-[#4A1A7A] hover:bg-[#3A1560] text-white rounded-full px-6 py-2 text-sm font-medium transition-all duration-200 hover:scale-105">
               Book Appointment
             </Button>
-          </div>
+          </div> */}
 
           {/* Mobile Menu Button */}
           <button
