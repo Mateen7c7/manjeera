@@ -9,9 +9,15 @@ interface Doctor {
 
 const doctors: Doctor[] = [
   {
-    name: 'Dr karthik MD General medicine ',
-    qualification: 'MD',
-    specialty: 'Diabetologist',
+    name: 'Dr Archana',
+    qualification: 'SD MS',
+    specialty: 'OBG',
+    image: '/images/doctors/5.jpg',
+  },
+  {
+    name: 'Dr. T.Karthik',
+    qualification: 'MD General',
+    specialty: 'Medicine',
     image: '/images/doctors/1.jpg',
   },
   {
@@ -22,22 +28,58 @@ const doctors: Doctor[] = [
   },
   {
     name: 'Dr Rajasekhar Guddeti',
-    qualification: 'MS',
+    qualification: 'MS MCH',
     specialty: 'Urology',
     image: '/images/doctors/3.jpg',
   },
   {
-    name: 'Dr madhusudhan YADAV ',
+    name: 'Dr. Madhusudhan yadav',
     qualification: 'MS',
-    specialty: 'knee replacement',
+    specialty: 'Ortho',
     image: '/images/doctors/4.jpg',
   },
   {
-    name: 'Dr Archana SD',
+    name: 'Dr. M.Lakshman Kumar',
+    qualification: 'Ms General',
+    specialty: 'Surgeon',
+    image: '',
+  },
+  {
+    name: 'Dr. Maheswarareddy',
+    qualification: 'Ms',
+    specialty: 'Ortho',
+    image: '',
+  },
+  {
+    name: 'Dr. Eswaraiah',
+    qualification: 'MD',
+    specialty: 'Pediatrics',
+    image: '',
+  },
+  {
+    name: 'Dr. Pundarikakhaiah',
+    qualification: 'MCH',
+    specialty: 'Neuro',
+    image: '',
+  },
+  {
+    name: 'Dr veresh',
     qualification: 'MS',
-    specialty: 'OBG',
-    image: '/images/doctors/5.jpg',
-  }
+    specialty: 'ENT',
+    image: '',
+  },
+  {
+    name: 'G. PRASAD',
+    qualification: '',
+    specialty: 'Managing Director',
+    image: '',
+  },
+  // {
+  //   name: '',
+  //   qualification: '',
+  //   specialty: '',
+  //   image: '',
+  // }
 ];
 
 const Doctors = () => {
