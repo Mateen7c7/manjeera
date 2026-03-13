@@ -15,15 +15,15 @@ const doctors: Doctor[] = [
     image: '/images/doctors/5.jpg',
   },
   {
-    name: 'Dr. T.Karthik',
-    qualification: 'MD General',
-    specialty: 'Medicine',
+    name: 'Dr. T.Karthik MD General',
+    qualification: 'MD',
+    specialty: 'Diabetologist',
     image: '/images/doctors/1.jpg',
   },
   {
     name: 'Dr BhaskarReddy',
     qualification: 'MS',
-    specialty: 'General Medicine',
+    specialty: 'General Surgery',
     image: '/images/doctors/2.jpg',
   },
   {
@@ -33,9 +33,9 @@ const doctors: Doctor[] = [
     image: '/images/doctors/3.jpg',
   },
   {
-    name: 'Dr. Madhusudhan yadav',
+    name: 'Dr. Madhusudhan yadav ',
     qualification: 'MS',
-    specialty: 'Ortho',
+    specialty: 'Orthopedics',
     image: '/images/doctors/4.jpg',
   },
   {
@@ -68,12 +68,12 @@ const doctors: Doctor[] = [
     specialty: 'ENT',
     image: '',
   },
-  {
-    name: 'G. PRASAD',
-    qualification: '',
-    specialty: 'Managing Director',
-    image: '',
-  },
+  // {
+  //   name: 'G. PRASAD',
+  //   qualification: '',
+  //   specialty: 'Managing Director',
+  //   image: '',
+  // },
   // {
   //   name: '',
   //   qualification: '',
